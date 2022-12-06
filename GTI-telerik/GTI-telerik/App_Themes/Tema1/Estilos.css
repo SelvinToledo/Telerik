@@ -1,0 +1,28 @@
+﻿body {
+}
+
+#cabecera{
+    height:150px;
+    background-color:darkblue;
+    color:white;
+    border:1px dashed darkblue;
+    box-shadow:0px 0px 10px #ff0000;
+}
+
+#Menulateralizquierdo {
+    width: 10%;
+    height: 800px;
+    margin: 15px 10px 10px 5px;
+    background-color: orange;
+    float: left;
+    box-shadow: 0px 0px 10px #ff0000;
+}
+#Datosgrid {
+    height: 800px;
+    width: 85%;
+    margin: 15px;
+    background-color: aqua;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ff0000;
+}
