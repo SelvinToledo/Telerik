@@ -127,6 +127,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="addempleado.aspx" />
+    <Content Include="App_Themes\Tema1\addemple.css" />
     <Content Include="App_Themes\Tema1\Estilos.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -186,6 +188,13 @@
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addempleado.aspx.cs">
+      <DependentUpon>addempleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addempleado.aspx.designer.cs">
+      <DependentUpon>addempleado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
