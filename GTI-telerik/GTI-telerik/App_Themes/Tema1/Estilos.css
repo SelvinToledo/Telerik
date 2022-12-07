@@ -1,12 +1,12 @@
 ﻿body {
 }
 
-#cabecera{
-    height:150px;
-    background-color:darkblue;
-    color:white;
-    border:1px dashed darkblue;
-    box-shadow:0px 0px 10px #ff0000;
+#cabecera {
+    width:140px;
+    background-color: darkblue;
+    color: white;
+    border: 1px dashed darkblue;
+    box-shadow: 0px 0px 10px #ff0000;
 }
 
 #Menulateralizquierdo {
